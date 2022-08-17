@@ -10,22 +10,19 @@ They provided access to their [database](https://github.com/lerocha/chinook-data
 
 ## Business Questions
 The company needs us to provide insights that help them answer four questions:
-- Which albums should we purchase for the US market?
-- How are our sales representatives performing?
-- In what countries should we run marketing campaigns?
-- Should we remove album sales from our business model?
+- Which albums should they purchase for the US market?
+- How are their sales representatives performing?
+- In what countries should they run marketing campaigns?
+- Should they remove album sales from their business model?
 
 ## Analysis Workflow
-To answer each business question, the database was queried with SQL. The results were then passed into a pandas dataframe for visualization with python.
+We queried the database with SQL to answer each business question. The results were passed into a pandas dataframe for visualization with python.
 
 ## Insights and Recommendations
-Regarding record labels, the company should make the best out of genres with high popularity in the US. They should select Hip-Hop, Punk, and Pop from their current options. Chinook should also be on the lookout for Rock songs. They account for the most significant amount (53%) of sales in the USA.
+- Regarding record labels, the company should make the best out of genres with high popularity in the US. They should select Hip-Hop, Punk, and Pop from their current options. Chinook should also be on the lookout for Rock songs since they account for the USA's most significant sales (53%).
 
-Jane Peacock is Chinook's best-performing salesperson both in total and average sales per customer.
+- Jane Peacock is Chinook's best-performing salesperson in total and average sales per customer.
 
-US and Canada have the most extensive customer base. However, customers spend less per transaction. The Czech Republic, India, and Portugal have high spending customers. Chinook could launch a marketing campaign to increase the customer base in the three regions.
+- US and Canada have the most extensive customer base, but customers spend less per transaction. The Czech Republic, India, and Portugal have the highest spending customers. Chinook could launch a marketing campaign to increase the customer base in the three countries.
 
-The plan to focus only on popular tracks may sound viable. However, it risks losing revenue from customers who prefer entire albums. It is better to conduct surveys and gather customer perspectives before implementing the new plan.
-
-
-
+- While focusing on track sales alone may sound viable, it risks losing revenue from customers who prefer entire albums. It is better to conduct surveys and gather customer perspectives before implementing any new plan.
